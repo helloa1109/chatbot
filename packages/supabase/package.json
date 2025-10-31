@@ -1,0 +1,11 @@
+{
+  "name": "@chatbot/supabase",
+  "version": "0.1.0",
+  "main": "src/index.ts",
+  "license": "MIT",
+  "type": "module",
+  "dependencies": {
+    "@supabase/ssr": "^0.7.0",
+    "@supabase/supabase-js": "^2.78.0"
+  }
+}
