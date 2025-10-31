@@ -1,7 +1,7 @@
 "use client";
 
-import {Tabs} from '@chatbot/ui'
-import {Button } from "@chatbot/ui/shadcnui";
+import { Tabs } from '@chatbot/ui'
+import { Button } from "@chatbot/ui";
 
 export default function Navbar() {
   return (
@@ -38,7 +38,7 @@ export default function Navbar() {
 
         
         <div className="flex flex-col gap-2 mt-4">
-          <Button variant="outline" className="w-full">
+          <Button className="w-full">
             로그인
           </Button>
           <Button className="w-full">

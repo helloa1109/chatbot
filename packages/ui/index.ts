@@ -1,11 +1,6 @@
 // utils
-export * from "./src/lib/utils";
+export { cn } from './src/lib/utils';
 
-// shadcn/ui
-export * from "./src/shadcnui/index";
-
-// components
-export * from "./src/index";
-
-//
-export * from "./src/shadcnui"
+// Button
+export { Button,buttonVariants } from './src/shadcnui/button';
+export type { ButtonProps } from './src/shadcnui/button';
