@@ -1,6 +1,11 @@
 import OpenAI from 'openai';
 
-const client = new OpenAI({ apiKey: process.env.OPENAI_API_KEY });
+const apiKey = process.env.OPENAI_API_KEY;
+if (!apiKey) {
+  throw new Error("OPENAI_API_KEY is not set. Add it to your environment (.env)");
+}
+
+const client = new OpenAI({ apiKey });
 
 export async function chat(prompt: string): Promise<string> {
   const response = await client.chat.completions.create({

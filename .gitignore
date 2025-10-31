@@ -32,3 +32,8 @@ pnpm-debug.log*
 
 # Coverage
 coverage/
+
+# App-specific env files
+apps/web/.env.local
+apps/web/.env.*
+!apps/web/.env.example
