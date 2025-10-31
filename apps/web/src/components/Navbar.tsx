@@ -38,7 +38,7 @@ export default function Navbar() {
 
         
         <div className="flex flex-col gap-2 mt-4">
-          <Button className="w-full">
+          <Button variant="outline" className="w-full">
             로그인
           </Button>
           <Button className="w-full">

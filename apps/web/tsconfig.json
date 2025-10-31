@@ -1,4 +1,5 @@
 {
+  "extends": "../../tsconfig.json",
   "compilerOptions": {
     "target": "ES2017",
     "lib": [
@@ -19,21 +20,7 @@
     "incremental": true,
     "baseUrl": ".",
     "paths": {
-      "@/*": [
-        "./src/*"
-      ],
-      "@chatbot/ui": [
-        "../../packages/ui/src"
-      ],
-      "@chatbot/ui/*": [
-        "../../packages/ui/src/*"
-      ],
-      "@chatbot/langchain": [
-        "../../packages/langchain/src"
-      ],
-      "@chatbot/langchain/*": [
-        "../../packages/langchain/src/*"
-      ]
+      "@/*": ["./src/*"]
     },
     "plugins": [
       {

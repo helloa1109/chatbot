@@ -1,11 +1,10 @@
-export { Tabs, type TabsProps, type TabItem } from "./Tabs";
+// utils
+export { cn } from './lib/utils';
 
-export { Button, buttonVariants } from "./shadcnui/button";
-export { Input } from "./shadcnui/input";
+// Button
+export { Button,buttonVariants } from './shadcnui/button';
+export type { ButtonProps } from './shadcnui/button';
 
-export {
-  Accordion,
-  AccordionItem,
-  AccordionTrigger,
-  AccordionContent,
-} from "./shadcnui/accordion";
+export {Tabs} from "./Tabs";
+
+export type {Size} from '@chatbot/types';
