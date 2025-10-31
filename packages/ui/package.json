@@ -4,10 +4,21 @@
   "private": true,
   "license": "MIT",
   "type": "module",
-  "main": "src/index.ts",
+  "main": "./index.ts",
   "types": "src/index.ts",
   "peerDependencies": {
     "react": "^18 || ^19",
     "react-dom": "^18 || ^19"
+  },
+  "dependencies": {
+    "@radix-ui/react-accordion": "^1.2.12",
+    "clsx": "^2.1.1",
+    "lucide-react": "^0.548.0",
+    "tailwind-merge": "^3.3.1"
+  },
+  "devDependencies": {
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "typescript": "^5"
   }
 }
