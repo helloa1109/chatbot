@@ -1,0 +1,7 @@
+{
+  "reactStrictMode": true,
+  "experimental": {
+    "turbo": true
+  },
+  "transpilePackages": []
+}
